@@ -14,3 +14,8 @@ def putNumebers(n):
 
 for i in putNumebers(100):
     print(i)
+
+
+'''
+学习点：   yield   在python中带有yield的函数称之为生成器（generator),
+'''
