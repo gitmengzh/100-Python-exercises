@@ -67,7 +67,7 @@ def test8():
     d = 10
     d =-1
     print(a,b,c,d)
-a = test8()
+#a = test8()
 # n = 2002%11
 # i = not 2001%2
 # k = not 2002%112
@@ -84,3 +84,9 @@ a = test8()
 #print(s,k,y,i,n,a)
 
 #print( map(int, input().split(',')))
+
+a = 10
+b = 3
+c = a/b
+d = a//b
+print(c,d)
