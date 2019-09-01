@@ -90,3 +90,21 @@ b = 3
 c = a/b
 d = a//b
 print(c,d)
+
+################################
+import re
+
+def test9 ():
+    '''
+    string1 = "test@144423@tesdfsst@123@sdfsf"
+    part1 = "(\w+)@(\w+)@(\w+)@(\w+)@(\w+)"
+    res = re.match(part1,string1)
+    print(res.group(1),res.groups(),res.group(2),res.group(3),res.group(4),res.group())
+    '''
+    str1 = input().split()
+    part1 = ("\d+")
+    for s in str1:
+        res = re.match(part1,s)
+    print(res.groups())
+
+test = test9()
