@@ -107,4 +107,10 @@ def test9 ():
         res = re.match(part1,s)
     print(res.groups())
 
-test = test9()
+
+
+def test10():
+    dict2 = {1: 'sdf','a':'test', 3: 'cdf', 2: 'iend','b':'sdfsdf'}
+    print(dict2)
+
+test = test10()
